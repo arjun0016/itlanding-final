@@ -1,0 +1,17 @@
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start ;
+    column-gap: 50px;
+    padding-inline: 15%;
+    height: auto;
+}
+.borderR{
+    border-right: 1px solid black;
+    height: 100px;
+}
+.cctv{
+    width: 40px;
+    height: 40px;
+}

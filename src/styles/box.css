@@ -1,0 +1,30 @@
+.box-content{
+    margin-block-start: 100px;
+    display: flex;
+    flex-direction:column ;
+    justify-content:center;
+    align-items: flex-start;
+    row-gap: 10px;
+    width: 30%;
+}
+.box-content h1{
+    font-size: 1.5rem;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+.box-content p{
+    color: #868d97;
+}
+span i {
+    font-size:24px ;
+}
+@media screen and (max-width:991px) {
+
+    .box-content{
+
+    width: 90%;
+    margin-block-start: 70px;
+
+    }
+    
+}
